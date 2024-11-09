@@ -103,7 +103,7 @@ if __name__ == '__main__':
         else:
             temp += i
     list.append(temp)
-
+    "test"
     path = input("Path to scoreboard.dat?: ")
     exportname = input("Exportfilename?: ")
     exportscore(search_terms=list, path_to_scoreboard_dat="scoreboard.dat",exportfilename=exportname)
